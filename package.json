@@ -10,7 +10,7 @@
   ],
   "dependencies": {
     "offshore-validator": "~0.0.2",
-    "async": "2.1.4",
+    "async": "1.5.2",
     "bluebird": "3.4.6",
     "deep-diff": "0.3.4",
     "lodash": "4.17.2",
