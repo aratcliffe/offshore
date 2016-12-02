@@ -72,7 +72,7 @@ describe('integrator', function () {
 						result
 						.should.be.Object;
 
-						_.any(aliases, function (alias) {
+						_.some(aliases, function (alias) {
 							return result[alias];
 						})
 						.should.be.true;
@@ -153,7 +153,7 @@ describe('integrator', function () {
 						result
 						.should.be.Object;
 
-						_.any(aliases, function (alias) {
+						_.some(aliases, function (alias) {
 							return result[alias];
 						})
 						.should.be.true;
@@ -229,7 +229,7 @@ describe('integrator', function () {
 					result
 					.should.be.Object;
 
-					_.any(aliases, function (alias) {
+					_.some(aliases, function (alias) {
 						return result[alias];
 					})
 					.should.be.true;
