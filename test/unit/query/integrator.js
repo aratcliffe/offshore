@@ -89,7 +89,7 @@ describe('integrator', function () {
 
 					// All aliases are accounted for in results
 					_.every(aliases, function (alias) {
-						return results.length === _.pluck(results, alias).length;
+						return results.length === _.map(results, alias).length;
 					}).should.be.true;
 				});
 
@@ -171,7 +171,7 @@ describe('integrator', function () {
 
 					// All aliases are accounted for in results
 					_.every(aliases, function (alias) {
-						return results.length === _.pluck(results, alias).length;
+						return results.length === _.map(results, alias).length;
 					}).should.be.true;
 				});
 
@@ -247,7 +247,7 @@ describe('integrator', function () {
 
 				// All aliases are accounted for in results
 				_.every(aliases, function (alias) {
-					return results.length === _.pluck(results, alias).length;
+					return results.length === _.map(results, alias).length;
 				}).should.be.true;
 
 			});
