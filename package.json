@@ -17,7 +17,7 @@
     "switchback": "2.0.2",
     "prompt": "1.0.0",
     "offshore-criteria": "0.0.2",
-    "offshore-schema": "0.0.3"
+    "offshore-schema": "aratcliffe/offshore"
   },
   "devDependencies": {
     "codeclimate-test-reporter": "0.4.0",
