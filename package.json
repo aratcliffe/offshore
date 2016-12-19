@@ -17,7 +17,7 @@
     "switchback": "2.0.2",
     "prompt": "1.0.0",
     "offshore-criteria": "0.0.2",
-    "offshore-schema": "aratcliffe/offshore"
+    "offshore-schema": "Atlantis-Software/offshore-schema#master"
   },
   "devDependencies": {
     "codeclimate-test-reporter": "0.4.0",
